@@ -7,7 +7,7 @@
 }
 body{
     background: #456;
-
+    display: flex;
 }
 .container{
     width: 600px;
@@ -47,14 +47,25 @@ body{
     margin: 20px 0;
     font-weight: 500;
 }
-/* #image{
-    width: 200px;
-    border-radius: 5px;
-    max-height: 0;
-    overflow: hidden;
 
-}
-#image qr{
+footer {
+    background-color: #1e2f3b;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
     width: 100%;
-    padding: 10px;
-} */
+    margin: auto;
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+}
+
+footer p {
+    margin: 0;
+    font-size: 16px;
+    left:0px;
+    bottom:0px;
+    line-height: 0px;
+}
